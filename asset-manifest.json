@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/SivaR-Portfolio/static/css/main.3abcc9a7.css",
+    "main.js": "/SivaR-Portfolio/static/js/main.0ccc9a14.js",
+    "static/js/787.64a65383.chunk.js": "/SivaR-Portfolio/static/js/787.64a65383.chunk.js",
+    "static/media/gif": "/SivaR-Portfolio/static/media/e83aa3c18b39efa325010737b7b16b98.e8acbfa407ff7aafd600.gif",
+    "static/media/home.png": "/SivaR-Portfolio/static/media/home.85ef3aa0047f5ad0099c.png",
+    "static/media/4.png": "/SivaR-Portfolio/static/media/4.e0b93a682621c6c72632.png",
+    "static/media/6.png": "/SivaR-Portfolio/static/media/6.e1a4922f675c059b91f1.png",
+    "static/media/5.png": "/SivaR-Portfolio/static/media/5.83ea94a3447300244ca7.png",
+    "static/media/3.png": "/SivaR-Portfolio/static/media/3.d241f177b3921dcf6e3b.png",
+    "static/media/IMG_20220919_111923.jpg": "/SivaR-Portfolio/static/media/IMG_20220919_111923.0a5e16c20650a5c40db9.jpg",
+    "static/media/resume.jpg": "/SivaR-Portfolio/static/media/resume.b6ed6a37225938180581.jpg",
+    "static/media/2.png": "/SivaR-Portfolio/static/media/2.3ce4f13edb55a37175a4.png",
+    "static/media/react.png": "/SivaR-Portfolio/static/media/react.11b59729d3fa01935a5e.png",
+    "static/media/script.png": "/SivaR-Portfolio/static/media/script.0ff691a84066eccba816.png",
+    "static/media/html.png": "/SivaR-Portfolio/static/media/html.cfb2ba4a6b1c3de295bc.png",
+    "static/media/css.png": "/SivaR-Portfolio/static/media/css.4a6549b8c2b4cda8bb88.png",
+    "static/media/professional-skills-icon.svg": "/SivaR-Portfolio/static/media/professional-skills-icon.daf9d2c607bf192076242ffa642f00a2.svg",
+    "static/media/project.svg": "/SivaR-Portfolio/static/media/project.e034957911a7328dd6874b331abcb1e5.svg",
+    "index.html": "/SivaR-Portfolio/index.html",
+    "static/media/md-contact.svg": "/SivaR-Portfolio/static/media/md-contact.53bc12cc88ad8887517f2600f89022dd.svg",
+    "main.3abcc9a7.css.map": "/SivaR-Portfolio/static/css/main.3abcc9a7.css.map",
+    "main.0ccc9a14.js.map": "/SivaR-Portfolio/static/js/main.0ccc9a14.js.map",
+    "787.64a65383.chunk.js.map": "/SivaR-Portfolio/static/js/787.64a65383.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3abcc9a7.css",
+    "static/js/main.0ccc9a14.js"
+  ]
+}
