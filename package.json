@@ -1,7 +1,7 @@
 {
   "name": "siva",
   "version": "0.1.0",
-  "homepage": "https://Sivaram7639.github.io/siva-portfolio-website",
+  "homepage": "https://Sivaram7639.github.io/sivaram-portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
