@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+*{
+    margin-top: 0%;
+}
+.tip{
+    color:black;
+}
+.nav-bar{
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: 60px;
+    position: sticky;
+    top:0;
+    z-index: 2000;
+    box-shadow: 0 1px 5px;
+}
+
+.nav-name{
+    font-size:x-large;
+    text-decoration: none;
+    color:black;
+    position: absolute;
+    top:10px;
+    left: 15px;
+    margin-left: 4%;
+    font-family:"jost",sans-serif;
+    
+
+}
+.nav-name:hover{
+    color:green;
+}
+
+.nav-links{
+    display:flex;
+    list-style: none;
+    gap:20px;
+    top:10px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 40%;
+    font-size:20px;
+    color:red;
+
+}
+.nav-name>span{
+    color:red;
+}
+.nav-items{
+    text-decoration: none;
+    gap:30px;
+    margin-right: 80px;
+    font-size: 1.7rem;
+    top:-4px;
+    color:black;
+    position: relative;
+    font-family:"jost",sans-serif;
+    border-radius: 7px;
+    width: 90px;
+    text-align: center;
+
+}
+.nav-items >img{
+    width: 30px;
+    height: 30px;
+    
+}
+
+
+@media screen and (max-width:800px){
+    .nav-bar{
+        position:-webkit- sticky;
+        position: sticky;
+        z-index: 2000;
+        top:0;
+        background-color: rgb(251, 254, 254);
+        
+    }
+    .burger_icon{
+        width:3rem;
+        height:2.5rem;
+        margin-left: 88%;
+        top: 10px;
+        position:relative;
+        cursor: pointer;
+        
+    
+    }
+    .burger-bar{
+        background-color: black;
+        display: flex;
+        position: relative;
+        margin-top:-3px;
+        right:3px;
+        border-radius: 30px;
+        
+        
+    }
+    .burger-bar:nth-child(1){
+        background-color:  black;
+        width:40px;
+        height:2px;
+        position: absolute;
+        top:15px;
+    }
+    .burger-bar:nth-child(2){
+        background-color: black;
+        top:27px;
+        position: absolute;
+        width:40px;
+        height:2px;
+    }
+    .burger-bar.clicked:nth-child(1){
+        transform: rotate(45deg) translate(0.28em ,0.25em );
+        transition: 0.5s ease-in-out;
+        
+
+    }
+    .burger-bar.clicked:nth-child(2){
+        transform: rotate(-45deg) translate(0.3em,-0.2em );
+        transition:  0.5s ease-in-out;
+        
+
+    }
+    .burger-bar.unclicked{
+        transform: rotate(0) translate(0);
+        transition: 0.5s;
+    }
+    .nav-links{
+        display: flex;
+        list-style: none;
+        flex-direction:column;
+        gap:0px;
+        font-size: 20px;
+        align-items: center;
+        position:absolute;
+        margin-top: 44px;
+        left:0px;
+        height:230px;
+        width: 100%;
+        transition: 0.5s;
+        background-color:white;
+        backdrop-filter: blur(300px);
+    
+    } 
+    .nav-items{
+        width:20px ;
+        font-size:small;
+        color: black;
+        top:-29px;
+        margin-left:40%;
+        position:relative;
+        text-align: center;
+        display: inline-block;
+        right: 0%;
+        background-color: transparent;
+    
+    }
+    .nav-items >img{
+        width: 30px;
+        height: 30px; 
+    }  
+    .nav-links.hidden{
+        overflow: hidden;
+        margin-left:0;
+        margin-top: -50%;
+        transition : 0.5s ease-in-out;
+        z-index: 1;
+        position:absolute;
+    }
+    .nav-links.visible{
+        transition: 0.5s ease-in-out;
+        margin-left:0%;
+        position:fixed;
+    }
+    .nav-items{
+        margin-top: 5%;
+        margin-right: 60%;
+    }
+    .nav-name{
+        margin-left: 0%;
+        font-size:x-large;
+
+    }
+    
+     .tool{
+            top:-10px;
+            position: absolute;
+            margin-left: -8%;
+            font-size: small;
+            color:rgb(79, 69, 79);
+            background-color: rgb(180, 173, 173);
+            text-align: center;
+            width:75px;
+            cursor: pointer;
+            visibility: hidden;
+            border-radius: 10px;
+            display: block;
+    }
+    .toolt{
+        top:-70px;
+        position: relative;
+        margin-left: -8%;
+        font-size: small;
+        color:rgb(79, 69, 79);
+        background-color: rgb(180, 173, 173);
+        text-align: center;
+        width:75px;
+        cursor: pointer;
+        visibility: hidden;
+        border-radius: 10px;
+        display: block;
+}
+nav:hover .toolt{
+    visibility: visible;
+}
+    nav:hover  .tool{
+        visibility: visible;
+    }
+    
+}
+@media screen and (max-width:1056px) {
+
+   .nav-items{
+    text-decoration: none;
+    gap:10px;
+    margin-right: 0%;
+    margin-left:-10%;
+    font-size:25px;
+    text-align: center;
+
+} 
+
+}

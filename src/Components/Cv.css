@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+.res{
+    width:450px;
+    height: 600px;
+    margin: auto;
+    display: block;
+    margin-top: 10%;
+    box-shadow: 10px 5px 30px rgb(188, 191, 192) ;
+}
+.down{
+    margin: auto;
+    top:30px;
+    position: relative;
+    display: block;
+    width:105px;
+    height:40px;
+    background-color: blue;
+    border: none;
+    color:white;
+    border-radius: 10px;
+    
+    font-family: "jost",sans-serif;
+    
+}
+.ang{
+    text-decoration: none;
+}
+.down:hover{
+    color:white;
+    background-color: rgb(83, 83, 155);
+
+}

@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+*{
+    margin-top: 0%;
+}
+.skills{
+    text-align: center;
+    background-color: black;
+    height: 800px;
+    position: relative;
+    margin-top: 17%;
+
+}
+.exper{
+    margin-top: -15%;
+    margin-left: -2%;
+    color:orange;
+    font-size: 1.3rem;
+    font-family:"jost", sans-serif;
+}
+.title{
+    font-family:"jost", sans-serif;
+    color:green;
+    padding:10px;
+    margin-left:120%;
+    position: relative;
+    top:-60px;
+}
+.html{
+    backdrop-filter: blur(5px);
+    background-color: rgba(255,255,255,0.4);
+    width: 250px;
+    height: 250px;
+    margin-left: 24%;
+    position: absolute;
+    margin-top: 7%;
+    top:146px;
+    border-radius: 2000px;
+    box-shadow:rgba(106, 125, 123, 0.2) 0px 4px 10px ;
+    animation:html 1s infinite ease-in-out ;
+}
+.logohtml{
+    width:110px;
+    height:110px;
+    margin-top: 17%;
+}
+
+.bar{
+    border: 1px solid rgb(208, 192, 192);
+    top:10%;
+    position: relative;
+    height: 5px;
+    border-radius: 10px;
+    width:150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.skillbar{
+    position: relative;
+    height:5px;
+    border-radius: 10px;
+    width: 110px;
+    background: linear-gradient(to right, red,yellow,rgb(121, 236, 121),white);
+}
+.no{
+    font-size: small;
+}
+@keyframes html {
+        
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.css{
+    backdrop-filter: blur(5px);
+    background-color: rgba(255,255,255,0.4);
+    width: 250px;
+    height: 250px;
+    margin-left: 41%;
+    margin-top: 2%;
+    border-radius: 1000px;
+    position:absolute;
+    box-shadow:rgba(106, 125, 123, 0.2) 0px 4px 10px ;
+    animation:css 1s infinite ease-in-out;
+}
+@keyframes css {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+    
+}
+.logocss{
+    width:120px;
+    height:120px;
+    margin-top: 17%;
+}
+.skillcss{
+    position: relative;
+    height:5px;
+    border-radius: 10px;
+    width: 100px;
+    background: linear-gradient(to right, red,yellow,rgb(158, 235, 158),white);
+}
+.nom{
+    position: relative;
+    top:11%;
+    font-size: large;
+}
+.javas{
+    backdrop-filter: blur(5px);
+    background-color: rgba(255,255,255,0.4);
+    width: 250px;
+    height: 250px;
+    margin-left: 58%;
+    margin-top: -17%;
+    top:240px;
+    border-radius: 10px;
+    border-radius: 500px;
+    position: relative;
+    box-shadow:rgba(106, 125, 123, 0.2) 0px 4px 10px ;
+    animation:css 1s infinite ease-in-out ;
+}
+.logojava{
+    width:100px;
+    height:150px;
+    margin-top: 10%;
+}
+.skilljava{
+    position: relative;
+    top:8%;
+    height:5px;
+    margin-left:20%;
+    border-radius: 10px;
+    width: 80px;
+    background: linear-gradient(to right, red,yellow,rgb(198, 214, 198),white);
+}
+.nomb{
+    position: relative;
+    top:10%;
+    font-size: small;
+}
+.react{
+    backdrop-filter: blur(5px);
+    background-color: rgba(255,255,255,0.4);
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5%;
+    top:140px;
+    position: relative;
+    border-radius: 500px;
+    box-shadow:rgba(106, 125, 123, 0.2) 0px 4px 10px ;
+    animation:html 1s infinite ease-in-out ;
+}
+.reacts{
+    font-family: "jost",sans-serif;
+    top:10%;
+    font-size: x-large;
+    position: relative;
+}
+.logoreact{
+    width:150px;
+    height:130px;
+    margin-top: 20%;
+    animation: all 10s infinite ease-in-out;
+}
+.skillreact{
+    position: relative;
+    top:8%;
+    height:5px;
+    margin-left:16%;
+    border-radius: 10px;
+    width: 100px;
+    background: linear-gradient(to right, red,yellow,rgb(170, 235, 170),white);
+}
+@keyframes all {
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+@media screen and (max-width:800px) {
+    .skills{
+        height: 600px;
+        margin-top: -7%;
+        position: relative;
+    }
+    .title{
+        margin-left: 115%;
+        top:40px;
+        position: absolute;
+        font-size: 25px;
+        color: rgb(210, 174, 108);
+        font-family:"jost",sans-serif;
+    }
+    .html{
+        backdrop-filter: blur(5px);
+        background-color: rgba(255,255,255,0.4);
+        width: 150px;
+        height: 150px;
+        margin-left:3%;
+        top: 190px;
+        display: block;
+        box-shadow:rgba(44, 48, 48, 0.2) 0px 4px 10px ;
+        animation-name: html;
+        animation-duration: 10s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+    }
+    @keyframes html {
+        
+        0%{
+            margin-left: 3%;
+            top:190px;
+        }
+        25%{
+            margin-left: 35%;
+            top:50px;
+        }
+        50%{
+            margin-left: 65%;
+            top:190px;
+        }
+        75%{
+            margin-left: 35%;
+            top:332px;
+        }
+        100%{
+            
+        }
+    }
+    .bar{
+        border: 1px solid rgb(208, 192, 192);
+        top:9%;
+        position:relative;
+        height: 3px;
+        width:100px;
+        border-radius: 10px;
+    }
+    .skillbar{
+        position: relative;
+        height:3px;
+        top:-1px;
+        border-radius: 10px;
+        width: 70px;
+        background: linear-gradient(to right, red,yellow,rgb(121, 236, 121),white);
+    }
+    .no{
+        font-size: small;
+    }
+    .logohtml{
+        width:50px;
+        height:50px;
+        margin-top: 18%;
+    }
+    .css{
+        backdrop-filter: blur(5px);
+        background-color: rgba(255,255,255,0.4);
+        width: 150px;
+        height: 150px;
+        margin-left:35%;
+        top:80px;
+        display: block;
+        margin-top: 7%;
+        position:relative;
+        box-shadow:rgba(44, 48, 48, 0.2) 0px 4px 10px ;
+        animation-name: rotation;
+        animation-duration: 10s ;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+    }
+    @keyframes rotation {
+        0% {
+            margin-left:35%;
+        }
+
+        
+        25%{
+        margin-left: 65%; 
+        top:230px;
+        }
+       50%{
+          margin-left: 35%;
+          top:365px;
+        }
+        75%{
+            margin-left: 3%;
+            top:226.5px;
+        }
+        100%{
+        }
+    }
+    .logocss{
+        margin-top: 17%;
+        width:50px;
+        height: 50px;
+    }
+    .skillcss{
+        position: relative;
+        height:3px;
+        top:0%;
+        border-radius: 10px;
+        width: 70px;
+        background: linear-gradient(to right, red,yellow,rgb(158, 235, 158),white);
+    }
+    .nom{
+        position: relative;
+        top:10%;
+        font-size: small;
+    }
+    .nomb{
+        position: relative;
+        top:6%;
+        font-size: small;
+    }
+    .javas{
+        backdrop-filter: blur(5px);
+        background-color: rgba(255,255,255,0.4);
+        width: 150px;
+        height: 150px;
+        margin-left: 65%;
+        top:160px;
+        display: block;
+        position: relative;
+        border-radius: 500px;
+        box-shadow:rgba(44, 48, 48, 0.2) 0px 4px 10px ;
+        animation-name: anime;
+        animation-duration: 10s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+    }
+    @keyframes anime {
+        0%{
+            margin-left:65% ;
+            top:160px;
+        }
+        25%{
+            margin-left: 35%;
+            top:297px;
+        }
+        50%{
+            margin-left: 3%;
+            top:152px;
+        }
+        75%{
+            margin-left:35% ;
+            top:11px;
+        }
+        100%{
+            
+        }
+    }
+    .logojava{
+        width:40px;
+        height:50px;
+        margin-top: 18%;
+    }
+    .skilljava{
+        position: relative;
+        top:7%;
+        height:3px;
+        margin-left:16%;
+        border-radius: 10px;
+        width: 60px;
+        background: linear-gradient(to right, red,yellow,rgb(249, 253, 249),white);
+    }
+    .react{
+        backdrop-filter: blur(5px);
+        background-color: rgba(255,255,255,0.4);
+        width: 150px;
+        height: 150px;
+        margin-left: 35%;
+        display: block;
+        top:120px;
+        border-radius: 100px;
+        position: relative;
+        box-shadow:rgba(44, 48, 48, 0.2) 0px 4px 10px ;
+        animation-name: react;
+        animation-duration: 10s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+    }
+    @keyframes  react {
+        0%{
+            margin-left: 35%;
+            top:120px;
+        }
+        25%{
+           margin-left:2.7%;
+           top:-19px;
+        }
+        50%{
+            margin-left: 35%;
+            top:-161px;
+        }
+        75%{
+            margin-left: 65%;
+            top:-17.5px;
+        }
+        100%{
+
+        }
+        
+    }
+    .reacts{
+        font-family: "jost",sans-serif;
+        top:0%;
+        font-size:x-large;
+    }
+    .logoreact{
+        width:55px;
+        height:50px;
+        margin-top: 15%;
+    }
+    .skillreact{
+        position: relative;
+        top:7.5%;
+        height:3px;
+        margin-left:13%;
+        border-radius: 10px;
+        width: 60px;
+        background: linear-gradient(to right, red,yellow,rgb(212, 230, 212),white);
+    }
+    .exper{
+        margin-top: 30%;
+        margin-left: auto;
+        color:orange;
+    }
+}

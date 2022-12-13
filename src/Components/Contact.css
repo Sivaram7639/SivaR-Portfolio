@@ -1,0 +1,93 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');  
+
+.contact{
+    background-image:url(../Assets/e83aa3c18b39efa325010737b7b16b98.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    width: 500px;
+    text-align: center;
+    height: 500px;
+    display: block;
+}
+.cont{
+    position: relative;
+    top:20px;
+    color:white;
+    font-family:"jost",sans-serif;
+}
+.inputs{
+    width: 250px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    gap:10px;
+    color:white;
+    border-radius: 10px;
+    border-style: none;
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid rgba(255,255,255,0.4);
+    backdrop-filter: blur(5px);
+    font-family:"jost",sans-serif;
+}
+ p{
+    color:red;
+
+}
+label{
+    margin: auto;
+    display: block;
+
+}
+
+@media screen and (max-width:764px) {
+    
+
+.contact{
+    background-image:url(../Assets/e83aa3c18b39efa325010737b7b16b98.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: auto;
+    display: block;
+    height: 400px;
+}
+.cont{
+    position: relative;
+    top:15px;
+    color: white;
+}
+.inputs{
+    width: 250px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color:white;
+    gap:10px;
+    border-radius: 10px;
+    border-style: none;
+    position: relative;
+    margin-top: 30px;
+    text-align: center;
+    background-color: transparent;
+    border: 0.2px solid rgba(255,255,255,0.4);
+    backdrop-filter: blur(10px);
+}
+ p{
+    color: white;
+
+}
+label{
+    margin: auto;
+    display: block;
+
+}
+}

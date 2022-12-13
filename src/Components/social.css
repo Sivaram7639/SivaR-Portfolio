@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+.insta{
+    align-items: center;
+    position: relative;
+    left: 45%;
+    margin-top:10%;
+
+}
+.social{
+    text-align: center;
+    top:100px;
+    left:10px;
+    position: relative;
+    color: purple;
+    font-family:"jost", sans-serif;
+}
+.icon{
+ position: relative;
+ margin-top: 10%;
+margin-left: auto;
+margin-right: auto;
+}
+.insta:nth-child(1){
+    font-size: 2rem;
+    color:red;
+    padding:10px;
+}
+.insta:nth-child(1):hover{
+    color:skyblue;
+}
+.insta:nth-child(2){
+    font-size: 2rem;
+    color:blue;
+    padding:10px;
+}
+.insta:nth-child(2):hover{
+    color:skyblue;
+}
+.insta:nth-child(3){
+    font-size: 2rem;
+    color:green;
+    padding:10px;
+
+}
+.insta:nth-child(3):hover{
+    color:skyblue;
+}
+.insta:nth-child(4){
+    font-size: 2rem;
+    color:black;
+    padding:10px;
+}
+.insta:nth-child(4):hover{
+    color:skyblue;
+}
+@media screen and (max-width:800px){
+    
+
+.insta{
+    position: relative;
+    align-items: center;
+    left:30%;
+    margin-top: 10%;
+
+}
+.insta:nth-child(1){
+    font-size: 2rem;
+    color:red;
+    padding:10px;
+}
+.insta:nth-child(1):hover{
+    color:skyblue;
+}
+.insta:nth-child(2){
+    font-size: 2rem;
+    color:blue;
+    padding:10px;
+}
+.insta:nth-child(2):hover{
+    color:skyblue;
+}
+.insta:nth-child(3){
+    font-size: 2rem;
+    color:green;
+    padding:10px;
+}
+.insta:nth-child(3):hover{
+    color:skyblue;
+}
+.insta:nth-child(4){
+    font-size: 2rem;
+    color:black;
+    padding:10px;
+    
+}
+.insta:nth-child(4):hover{
+    color:skyblue
+}
+.social{
+    text-align: center;
+    top:40px;
+    position: relative;
+    color: purple;
+    font-family:"jost", sans-serif;
+}
+}
