@@ -8,10 +8,11 @@
 .nav-bar{
     background-color: transparent;
     backdrop-filter: blur(5px);
-    width: 100%;
+    width: 103%;
     height: 60px;
     position: sticky;
-    top:0;
+    position: relative;
+    top:0px;
     z-index: 2000;
     box-shadow: 0 1px 5px;
 }
@@ -69,7 +70,7 @@
 }
 
 
-@media screen and (max-width:800px){
+@media screen and (max-width:764px){
     .nav-bar{
         position:-webkit- sticky;
         position: sticky;
@@ -81,7 +82,7 @@
     .burger_icon{
         width:3rem;
         height:2.5rem;
-        margin-left: 88%;
+        margin-left: 85%;
         top: 10px;
         position:relative;
         cursor: pointer;
@@ -114,19 +115,19 @@
     }
     .burger-bar.clicked:nth-child(1){
         transform: rotate(45deg) translate(0.28em ,0.25em );
-        transition: 0.5s ease-in-out;
+        transition: 0.2s ease-in-out;
         
 
     }
     .burger-bar.clicked:nth-child(2){
         transform: rotate(-45deg) translate(0.3em,-0.2em );
-        transition:  0.5s ease-in-out;
+        transition:  0.2s ease-in-out;
         
 
     }
     .burger-bar.unclicked{
         transform: rotate(0) translate(0);
-        transition: 0.5s;
+        transition: 0.2s;
     }
     .nav-links{
         display: flex;
@@ -165,7 +166,7 @@
     .nav-links.hidden{
         overflow: hidden;
         margin-left:0;
-        margin-top: -50%;
+        margin-top: -60%;
         transition : 0.5s ease-in-out;
         z-index: 1;
         position:absolute;

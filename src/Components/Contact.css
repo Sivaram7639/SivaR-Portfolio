@@ -8,7 +8,7 @@
     margin: auto;
     margin-top: 20px;
     display: block;
-    width: 500px;
+    width: 600px;
     text-align: center;
     height: 500px;
     display: block;
@@ -26,15 +26,13 @@
     margin-right: auto;
     display: block;
     gap:10px;
-    color:white;
+    background-color: white;
     border-radius: 10px;
     border-style: none;
     position: relative;
     margin-top: 50px;
     text-align: center;
-    background-color: transparent;
-    border: 1px solid rgba(255,255,255,0.4);
-    backdrop-filter: blur(5px);
+    border: 1px solid white;
     font-family:"jost",sans-serif;
 }
  p{
@@ -57,7 +55,8 @@ label{
     text-align: center;
     margin: auto;
     display: block;
-    height: 400px;
+    width:404px;
+    height: 350px;
 }
 .cont{
     position: relative;
@@ -70,15 +69,15 @@ label{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    color:white;
+    color:purple;
     gap:10px;
     border-radius: 10px;
     border-style: none;
     position: relative;
     margin-top: 30px;
     text-align: center;
-    background-color: transparent;
-    border: 0.2px solid rgba(255,255,255,0.4);
+    background-color: white;
+    border: 0.2px solid white;
     backdrop-filter: blur(10px);
 }
  p{

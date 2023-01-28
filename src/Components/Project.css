@@ -4,13 +4,13 @@
     margin-left: 40%;
     position: relative;
     margin-top: 5%;
-    width:900px;
-    height:500px;
+    width:600px;
+    height:250px;
     border-radius: 0px;
 }
 .link{
     position: absolute;
-    margin-top: -20%;
+    margin-top: -13%;
     text-decoration: none;
     color:green;
     font-size: x-large;
@@ -27,10 +27,12 @@
     height: fit-content;
     margin-left: auto;
     margin-right: auto;
+    display: block;
+    left:1.5%;
     position: relative;
     margin-top:5%;
-    width:480px;
-    height:270px;
+    width:auto;
+    height:200px;
     border-radius: 0px;
 }
 .main{

@@ -40,7 +40,7 @@ function About() {
 
   return (
     <body id="body">
-    <div className="about">
+    <div  className="about">
       <img className="picture" src={logo} alt="man"/>
       <div className="namesection">
       <h1 className="greet"> Hi!,<span> I'M SIVARAM</span></h1>

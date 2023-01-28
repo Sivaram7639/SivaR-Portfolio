@@ -4,17 +4,17 @@
 }
 .skills{
     text-align: center;
-    background-color: black;
     height: 800px;
     position: relative;
+    margin-left:15%;
     margin-top: 17%;
 
 }
 .exper{
-    margin-top: -15%;
-    margin-left: -2%;
+    margin-top: -20%;
+    margin-left: -10%;
     color:orange;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-family:"jost", sans-serif;
 }
 .title{
@@ -30,9 +30,9 @@
     background-color: rgba(255,255,255,0.4);
     width: 250px;
     height: 250px;
-    margin-left: 24%;
+    margin-left: 10%;
     position: absolute;
-    margin-top: 7%;
+    margin-top: 15%;
     top:146px;
     border-radius: 2000px;
     box-shadow:rgba(106, 125, 123, 0.2) 0px 4px 10px ;
@@ -82,8 +82,8 @@
     background-color: rgba(255,255,255,0.4);
     width: 250px;
     height: 250px;
-    margin-left: 41%;
-    margin-top: 2%;
+    margin-left: 35%;
+    margin-top: 10%;
     border-radius: 1000px;
     position:absolute;
     box-shadow:rgba(106, 125, 123, 0.2) 0px 4px 10px ;
@@ -125,7 +125,7 @@
     height: 250px;
     margin-left: 58%;
     margin-top: -17%;
-    top:240px;
+    top:300px;
     border-radius: 10px;
     border-radius: 500px;
     position: relative;
@@ -160,8 +160,9 @@
     margin-left:auto;
     margin-right: auto;
     display: block;
-    margin-top: 5%;
-    top:140px;
+    margin-top: 15%;
+    top:100px;
+    left:-30px;
     position: relative;
     border-radius: 500px;
     box-shadow:rgba(106, 125, 123, 0.2) 0px 4px 10px ;
@@ -195,10 +196,14 @@
     
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:764px) {
     .skills{
         height: 600px;
+        width:406px;
         margin-top: -7%;
+        top:-60px;
+        margin: auto;
+        display: block;
         position: relative;
     }
     .title{
@@ -212,8 +217,8 @@
     .html{
         backdrop-filter: blur(5px);
         background-color: rgba(255,255,255,0.4);
-        width: 150px;
-        height: 150px;
+        width: 130px;
+        height: 130px;
         margin-left:3%;
         top: 190px;
         display: block;
@@ -231,7 +236,7 @@
         }
         25%{
             margin-left: 35%;
-            top:50px;
+            top:57px;
         }
         50%{
             margin-left: 65%;
@@ -239,7 +244,7 @@
         }
         75%{
             margin-left: 35%;
-            top:332px;
+            top:310px;
         }
         100%{
             
@@ -272,10 +277,10 @@
     .css{
         backdrop-filter: blur(5px);
         background-color: rgba(255,255,255,0.4);
-        width: 150px;
-        height: 150px;
+        width: 130px;
+        height: 130px;
         margin-left:35%;
-        top:80px;
+        top:120px;
         display: block;
         margin-top: 7%;
         position:relative;
@@ -293,15 +298,15 @@
         
         25%{
         margin-left: 65%; 
-        top:230px;
+        top:250px;
         }
        50%{
           margin-left: 35%;
-          top:365px;
+          top:375px;
         }
         75%{
             margin-left: 3%;
-            top:226.5px;
+            top:250px;
         }
         100%{
         }
@@ -332,10 +337,10 @@
     .javas{
         backdrop-filter: blur(5px);
         background-color: rgba(255,255,255,0.4);
-        width: 150px;
-        height: 150px;
+        width: 130px;
+        height: 130px;
         margin-left: 65%;
-        top:160px;
+        top:190px;
         display: block;
         position: relative;
         border-radius: 500px;
@@ -348,19 +353,19 @@
     @keyframes anime {
         0%{
             margin-left:65% ;
-            top:160px;
+            top:190px;
         }
         25%{
             margin-left: 35%;
-            top:297px;
+            top:310px;
         }
         50%{
             margin-left: 3%;
-            top:152px;
+            top:190px;
         }
         75%{
             margin-left:35% ;
-            top:11px;
+            top:58px;
         }
         100%{
             
@@ -375,7 +380,7 @@
         position: relative;
         top:7%;
         height:3px;
-        margin-left:16%;
+        margin-left:12%;
         border-radius: 10px;
         width: 60px;
         background: linear-gradient(to right, red,yellow,rgb(249, 253, 249),white);
@@ -383,9 +388,9 @@
     .react{
         backdrop-filter: blur(5px);
         background-color: rgba(255,255,255,0.4);
-        width: 150px;
-        height: 150px;
-        margin-left: 35%;
+        width: 130px;
+        height: 130px;
+        margin-left: 42%;
         display: block;
         top:120px;
         border-radius: 100px;
@@ -398,20 +403,20 @@
     }
     @keyframes  react {
         0%{
-            margin-left: 35%;
+            margin-left: 42%;
             top:120px;
         }
         25%{
-           margin-left:2.7%;
-           top:-19px;
+           margin-left:11%;
+           top:-4px;
         }
         50%{
-            margin-left: 35%;
-            top:-161px;
+            margin-left: 43%;
+            top:-135px;
         }
         75%{
-            margin-left: 65%;
-            top:-17.5px;
+            margin-left: 73%;
+            top:-5px;
         }
         100%{
 
@@ -438,8 +443,11 @@
         background: linear-gradient(to right, red,yellow,rgb(212, 230, 212),white);
     }
     .exper{
-        margin-top: 30%;
+        margin-top: 35%;
         margin-left: auto;
         color:orange;
+    }
+    .skill{
+        margin-left:1%;
     }
 }
