@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SivaR-Portfolio/static/css/main.bbc17691.css",
-    "main.js": "/SivaR-Portfolio/static/js/main.0ccc9a14.js",
+    "main.css": "/SivaR-Portfolio/static/css/main.60da4c30.css",
+    "main.js": "/SivaR-Portfolio/static/js/main.5d10888f.js",
     "static/js/787.64a65383.chunk.js": "/SivaR-Portfolio/static/js/787.64a65383.chunk.js",
     "static/media/gif": "/SivaR-Portfolio/static/media/e83aa3c18b39efa325010737b7b16b98.e8acbfa407ff7aafd600.gif",
     "static/media/home.png": "/SivaR-Portfolio/static/media/home.85ef3aa0047f5ad0099c.png",
@@ -20,12 +20,12 @@
     "static/media/project.svg": "/SivaR-Portfolio/static/media/project.e034957911a7328dd6874b331abcb1e5.svg",
     "index.html": "/SivaR-Portfolio/index.html",
     "static/media/md-contact.svg": "/SivaR-Portfolio/static/media/md-contact.53bc12cc88ad8887517f2600f89022dd.svg",
-    "main.bbc17691.css.map": "/SivaR-Portfolio/static/css/main.bbc17691.css.map",
-    "main.0ccc9a14.js.map": "/SivaR-Portfolio/static/js/main.0ccc9a14.js.map",
+    "main.60da4c30.css.map": "/SivaR-Portfolio/static/css/main.60da4c30.css.map",
+    "main.5d10888f.js.map": "/SivaR-Portfolio/static/js/main.5d10888f.js.map",
     "787.64a65383.chunk.js.map": "/SivaR-Portfolio/static/js/787.64a65383.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbc17691.css",
-    "static/js/main.0ccc9a14.js"
+    "static/css/main.60da4c30.css",
+    "static/js/main.5d10888f.js"
   ]
 }
